@@ -1,0 +1,23 @@
+.box-child {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    margin: 10px;
+}
+.box-child:nth-child(2) {
+    background-color: antiquewhite;
+}
+.box-child:nth-child(3){
+    background-color: green;
+}
+
+.boxes {
+    height: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    /* horizontal position */
+    justify-content: space-around;
+    /* vertical position */
+    align-items: center;
+    background-color: rgb(150, 70, 150);
+}
